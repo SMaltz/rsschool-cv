@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Saira";
+    src: url("assets/fonts/SairaCondensed-Bold.ttf");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Saira";
+    src: url("assets/fonts/SairaCondensed-Regular.ttf");
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Saira, sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    background-color: chartreuse;
+    background-image: url("assets/img/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 10px solid #000088;   
+}
+
+.avatar {
+    width: 200px;
+    padding: 20px;
+}
+
+.person {
+    padding: 20px 20px;
+}
+
+.content {
+    display: flex
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.main {
+        padding: 20px;
+}
+
+.footer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span {
+    margin: 20px;
+}
